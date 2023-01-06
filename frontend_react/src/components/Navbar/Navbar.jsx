@@ -12,7 +12,6 @@ function Navbar() {
       <nav className="app__navbar">
         {/* BEM naming scheme*/}
           <div>
-              <img src={images.logo} alt="logo" />
           </div>
           <ul className="app__navbar-links">
               {/* Creating li for each tab and mapping to pages */}
