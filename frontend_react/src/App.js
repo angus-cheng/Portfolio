@@ -14,6 +14,7 @@ const App = () => {
           <About></About>
           <Work></Work>
           <Skills></Skills>
+          {/* Removing testimonials for now until I have some*/}
           {/* <Testimonial></Testimonial> */}
           <Footer></Footer>
       </div>
