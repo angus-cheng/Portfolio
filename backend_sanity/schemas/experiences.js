@@ -1,5 +1,5 @@
 export default{
-    name:'experiences',
+    name:'Work experiences',
     title:'Experiences',
     type: 'document',
     fields:[
