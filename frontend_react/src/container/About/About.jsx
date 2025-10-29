@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 import './About.scss'
 import { urlFor, client } from '../../client';
-import { images } from '../../constants';
+// import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper';
 
 const About = () => {

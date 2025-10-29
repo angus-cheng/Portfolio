@@ -6,11 +6,13 @@ const NavigationDots = ({ active }) => {
         {['home', 'about', 'work', 'skills', 'testimonials', 'contact']
                 .map((item, index) => (
             <a 
+                aria-label="Navigation"
                 href={`#${item}`} 
                 key={item + index}
                 className="app__navigation-dot"
                 style={active === item ? { background: "313BAC"} : {}}
-            />
+            >
+            </a>
         ))}
       </div>
   )
